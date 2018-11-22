@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:customer="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <!--<com.bwie.customerview.CustomerView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<com.bwie.customerview.MyTextView-->
+    <!--android:background="#f62f2f"-->
+    <!--android:text="sd"-->
+    <!--android:textSize="10sp"-->
+    <!--android:textColor="@color/colorAccent"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<com.bwie.customerview.CustomerViewLinear-->
+    <!--android:id="@+id/aaaaa"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--customer:center_text_color="#26f28c"-->
+    <!--customer:center_text_size="14sp"-->
+    <!--customer:center_text_title="还是不不太懂呀"-->
+    <!--customer:left_iv_pic="@drawable/a1" />-->
+    <!--<com.bwie.customerview.ShouHuanView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <com.bwie.customerview.JieTiView
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></com.bwie.customerview.JieTiView>
+</android.support.constraint.ConstraintLayout>
