@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:customer="http://schemas.android.com/apk/res-auto"
+    android:background="#80000f"
+    android:orientation="vertical"
     tools:context=".MainActivity">
     <!--<com.bwie.customerview.CustomerView-->
     <!--android:layout_width="wrap_content"-->
@@ -24,10 +25,32 @@
     <!--customer:center_text_title="还是不不太懂呀"-->
     <!--customer:left_iv_pic="@drawable/a1" />-->
     <!--<com.bwie.customerview.ShouHuanView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent" />-->
-    <com.bwie.customerview.JieTiView
-        android:background="@color/colorAccent"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"></com.bwie.customerview.JieTiView>
-</android.support.constraint.ConstraintLayout>
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+    <!--<com.bwie.customerview.JieTiView-->
+    <!--android:background="@color/colorAccent"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"></com.bwie.customerview.JieTiView>-->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#ff7403">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher" />
+
+        <com.bwie.customerview.WaveView
+            android:id="@+id/waveView"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="100dp" />
+    </FrameLayout>
+
+</LinearLayout>
